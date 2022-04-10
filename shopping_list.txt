@@ -1,5 +1,6 @@
 Ovosje x1
 Zelencuk x2
 Mleko x3
-Leb x4
+Zejtin x4
 Jajca x5
+Cokolado x6
