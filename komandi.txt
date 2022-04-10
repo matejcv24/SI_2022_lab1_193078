@@ -1,0 +1,102 @@
+git clone https://github.com/matejcv24/SI_2022_lab1_193078.git
+cd SI_2022_lab1_193078
+notepad shopping_list.txt
+git add .
+notepad shopping_list.txt
+git add .
+git branch branch1 
+git branch branch2
+git log
+Author: Matej Cvetanovski <matejcvetanovski@hotmail.com>
+Date:   Sun Apr 10 14:05:17 2022 +0200
+
+    Add quantities to the items
+
+commit 3f8bce3c9ca1563b52df8421d0062e4647a8db11
+Author: Matej Cvetanovski <matejcvetanovski@hotmail.com>
+Date:   Sun Apr 10 14:03:47 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 2a8de51f2423b8d4c0d668fb2ac130904a85023a (origin/master, origin/HEAD)
+Author: matejcv24 <103365127+matejcv24@users.noreply.github.com>
+Date:   Sun Apr 10 13:48:54 2022 +0200
+
+    Update README.md
+
+commit a296789f9ab134c09de123f0d16c8776461e178f
+Author: matejcv24 <103365127+matejcv24@users.noreply.github.com>
+Date:   Sun Apr 10 13:48:19 2022 +0200
+
+git push
+git checkout branch1
+notepad shopping_list.txt
+git add .
+git commit shopping_list.txt -m "Change quantity of item #5"
+git checkout master
+notepad shopping_list.txt
+git add .
+git commit shopping_list.txt -m "Change quantity of item #2"
+git push 
+git checkout branch2
+notepad shopping_list.txt
+git add .
+git commit shopping_list.txt -m "Modify item #4"
+git log
+Author: Matej Cvetanovski <matejcvetanovski@hotmail.com>
+Date:   Sun Apr 10 14:15:20 2022 +0200
+
+    Modify item #4
+
+commit 95c1e8f8638cd19153a5d58959924830b9b59464
+Author: Matej Cvetanovski <matejcvetanovski@hotmail.com>
+Date:   Sun Apr 10 14:05:17 2022 +0200
+
+    Add quantities to the items
+
+commit 3f8bce3c9ca1563b52df8421d0062e4647a8db11
+Author: Matej Cvetanovski <matejcvetanovski@hotmail.com>
+Date:   Sun Apr 10 14:03:47 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 2a8de51f2423b8d4c0d668fb2ac130904a85023a
+Author: matejcv24 <103365127+matejcv24@users.noreply.github.com>
+Date:   Sun Apr 10 13:48:54 2022 +0200
+
+    Update README.md
+
+notepad shoping_list.txt
+git add .
+git commit --amend shopping_list.txt -m "Modify item #4 and add item #6"
+
+git log
+commit 540a878b3a1789e21da79c79a49f7970dd1b0f41 (HEAD -> branch2)
+Author: Matej Cvetanovski <matejcvetanovski@hotmail.com>
+Date:   Sun Apr 10 14:15:20 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 95c1e8f8638cd19153a5d58959924830b9b59464
+Author: Matej Cvetanovski <matejcvetanovski@hotmail.com>
+Date:   Sun Apr 10 14:05:17 2022 +0200
+
+    Add quantities to the items
+
+commit 3f8bce3c9ca1563b52df8421d0062e4647a8db11
+Author: Matej Cvetanovski <matejcvetanovski@hotmail.com>
+Date:   Sun Apr 10 14:03:47 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 2a8de51f2423b8d4c0d668fb2ac130904a85023a
+Author: matejcv24 <103365127+matejcv24@users.noreply.github.com>
+Date:   Sun Apr 10 13:48:54 2022 +0200
+
+    Update README.md
+
+git checkout master
+git merge branch1
+git merge branch2
+notepad shopping_list.txt
+git commit -i shopping_list.txg
