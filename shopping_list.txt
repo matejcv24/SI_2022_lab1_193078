@@ -1,5 +1,5 @@
-Ovosje 
-Zelencuk
-Mleko
-Leb
-Jajca
+Ovosje x1
+Zelencuk x2
+Mleko x3
+Leb x4
+Jajca x5
