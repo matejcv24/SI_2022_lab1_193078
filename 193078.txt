@@ -97,6 +97,7 @@ Date:   Sun Apr 10 13:48:54 2022 +0200
 
 git checkout master
 git merge branch1
+- Тука немаше конфликт, се изврши со ort стратегија
 git merge branch2
 notepad shopping_list.txt
 git commit -i shopping_list.txg
